@@ -12,6 +12,7 @@ module.exports = {
     ecmaVersion: 2020
   },
   rules: {
+    //"camelcase": [2, { "properties": "never" }, { "ignoreDestructuring": true }, { "ignoreImports": true }, { "ignoreGlobals": true }],
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
   }

@@ -1,0 +1,56 @@
+@import "~vue-material/dist/theme/engine"; // Import the theme engine
+
+
+@import "utility.css";
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-danger {
+  color: #c84513 !important;
+}
+
+.text-warning {
+  color: #c87313 !important;
+}
+
+
+.text-success {
+  color: #46c813 !important;
+}
+
+.md-disabled .text-danger,
+.md-disabled .text-warning,
+.md-disabled .text-success {
+  color: rgb(153, 153, 153) !important;
+}
+
+
+.p-autocomplete {
+  width: 100%;
+}
+
+.p-text {
+  font-size: 12px !important;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.p-inputtext:enabled:focus {
+  box-shadow: none !important;
+}
+
+.p-autocomplete .p-inputtext {
+  background: transparent !important;
+  border: 0;
+  border-bottom: 1px solid #c7c7c7 !important;
+  border-radius: 0;
+  padding-left: 0px;
+  width: 100%;
+  padding-bottom: 8px;
+  padding-top: 3px;
+}
+
+.p-autocomplete .p-inputtext:focus {
+  border-bottom: 2px solid #448aff!important;
+}
